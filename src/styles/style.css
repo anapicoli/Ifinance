@@ -1,0 +1,35 @@
+@import url(global.css);
+
+/* header */
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 15px;
+        gap: 120px;
+    }
+
+    .navigation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+    }
+
+    .navigation ul{
+        display: flex;
+        gap: 21px;
+        list-style: none;
+    }
+
+    .navigation a{
+        text-decoration: none;
+        color: var(--light-text-color);
+    }
+
+    .nav-buttons{
+        display: flex;
+        gap: 20px;
+    }
+
+    

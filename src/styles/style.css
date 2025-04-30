@@ -29,7 +29,25 @@
 
     .nav-buttons{
         display: flex;
+        align-items: center;
+        justify-content: center;
         gap: 20px;
+    }
+
+    .login-button{
+        background-color: var(--dark-background-color);
+        color: var(--light-text-color);
+        font-size: 14px;
+    }
+
+    .member-button{
+        display: flex;
+        padding: 15px 25px;
+        gap: 15px;
+        color: var(--light-text-color);
+        background-color: var(--primary-color);
+        border-radius: 5px;
+        font-size: 14px;
     }
 
     

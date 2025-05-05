@@ -49,5 +49,124 @@
         border-radius: 5px;
         font-size: 14px;
     }
+/* fim - header */
 
+/* main */
+    .main-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 157px 20px 157px;
+    }
+
+    .main-info{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 509px;
+        gap: 35px;
+    }
+
+    .main-info h1{
+        font-size: 58px;
+        color: var(--light-text-color);
+    }
+
+    .main-info p{
+        font-size: 20px;
+        width: 376px;
+        color: var(--light-text-color);
+    }
+
+    .main-buttons{
+        display: flex;
+        gap: 10px;
+    }
+
+    .get-quote{
+        padding: 15px 36px;
+        background-color: var(--primary-color);
+        color: var(--light-text-color);
+        border-radius: 37px;
+        font-size: 14px;
+    }
+
+    .learn{
+        padding: 15px 36px;
+        background-color: var(--dark-background-color);
+        color: var(--light-text-color);
+        border: solid 1px var(--light-background-color);
+        border-radius: 37px;
+        font-size: 14px;
+    }
+/* fim - main */
+
+/* strategy */
+    .strategy-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin: 20px 231px 24px 231px;
+        padding: 45px 0px;
+    }
+
+    .strategy-info h2{
+        text-align: center;
+        width: 451px;
+        color: var(--light-text-color);
+        font-size: 40px;
+    }
+
+    .strategy-info p{
+        text-align: center;
+        width: 470px;
+        color: var(--second-text-color);
+        margin-top: 10px;
+    }
+
+    .strategy-cards{
+        display: flex;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        margin-left: 25px;
+    }
+
+    .card{
+        display: flex;
+        padding: 35px 20px;
+        gap: 20px;
+        width: 328px;
+        border: solid 1px var(--light-background-color);
+    }
+
+    .card img{
+        width: 48px;
+        height: 39.53px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .card-info h3{
+        font-size: 16px;
+        color: var(--light-text-color);
+        width: 167px;
+    }
+
+    .card-info p{
+        color: var(--light-text-color);
+        width: 213px;
+    }
+/* fim - strategy */
     

@@ -327,3 +327,103 @@
         font-size: 16px;
     }
 /* fim - downloads */
+
+/* pricing */
+    pricing{
+        margin: 0px 36px 75px 36px;
+    }
+
+    .pricing-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 160px 0px;
+        gap: 96px;
+    }
+
+    .pricing-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--light-text-color);
+        width: 625px;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .pricing-info h2{
+        font-size: 40px;
+    }
+
+    .pricing-info p{
+        width: 470px;
+    }
+
+    .pricing-cards-container{
+        display: flex;
+        justify-content: center ;
+        align-items: start;
+        gap: 30px;
+        
+    }
+    
+    .pricing-cards-container article{
+        background-color: var(--light-text-color);
+        padding: 50px 49px;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        gap: 30px;
+    }
+    
+    .pricing-cards-container article h3{
+        color: var(--primary-color);
+        text-transform: uppercase;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    
+    .pricing-cards-container article p{
+        color: var(--second-text-color);
+        width: 217px;
+        margin-bottom: 0px;
+        font-weight: 600;
+    }
+    .pricing-cards-info{
+        text-align: start;
+    }
+    
+    .price{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin-bottom: 25px;
+        color: var(--primary-color);
+        font-size: 40px;
+        gap: 10px;
+    }
+
+    .price h4{
+        font-size: 40px;
+    }
+    .price-info{
+        text-align: start;
+    }
+    .price-info h5{
+        font-size: 16px;
+    }
+    .price-info p{
+        color: var(--disabled-element-color);
+    }
+
+    .pricing-cards button{
+        font-size: 14px;
+        color: var(--light-text-color);
+        background-color: var(--primary-color);
+        border-radius: 5px;
+        width: 164px;
+        height: 52px;
+    }
+/* fim - pricing */

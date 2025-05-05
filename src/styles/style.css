@@ -169,4 +169,80 @@
         width: 213px;
     }
 /* fim - strategy */
+
+/* clients */
+    clients{
+        margin-top: 30px;
+    }
+
+    .clients-container{
+        padding: 112px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .clients-info{
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .clients-info h2{
+        font-size: 40px;
+        color: var(--light-text-color);
+        text-align: center;
+    }
+
+    .clients-info p{
+        color: var(--light-text-color);
+        width: 470px;
+        text-align: center;
+    }
+
+    .regina{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        gap: 30px;
+        padding: 40px 35px;
+        background-color: var(--light-background-color);
+        width: 744px;
+    }
+
+    .regina-image{
+        width: 96px;
+        height: 96px;
+    }
+
+    .regina-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        width: 433px;
+        text-align: center;
+    }
+
+    .who{
+        display: flex;
+        flex-direction: column;
+        width: 162px;
+        gap: 8px;
+    }
+
+    .who h3{
+        font-size: 24px;
+    }
+
+    .who p{
+        color: var(--second-text-color);
+    }
+/* fim - clients */
     

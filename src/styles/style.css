@@ -245,4 +245,85 @@
         color: var(--second-text-color);
     }
 /* fim - clients */
-    
+
+/* downloads */
+    .download-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 0px;
+    }
+
+    .download-info{
+        text-align: center;
+        width: 607px;
+        margin-bottom: 50px;
+    }
+
+    .download-info h2{
+        font-size: 40px;
+        color: var(--light-text-color);
+        margin: 10px;
+    }
+
+    .download-info{
+        width: 470px;
+        color: var(--light-text-color);
+    }
+
+    .download-cards{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .appstore{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 28px;
+        gap: 25px;
+        border: solid 1px var(--light-text-color);
+        border-radius: 10px;
+    }
+
+    .googleplay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 28px;
+        gap: 25px;
+        border: solid 1px var(--light-text-color);
+        border-radius: 10px;
+    }
+
+    .amazon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 28px;
+        gap: 25px;
+        border: solid 1px var(--light-text-color);
+        border-radius: 10px;
+    }
+
+    .windowsstore{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 18px 28px;
+        gap: 25px;
+        border: solid 1px var(--light-text-color);
+        border-radius: 10px;
+    }
+
+    .download-cards-info{
+        color: var(--light-text-color);
+    }
+
+    .download-cards-info h3{
+        font-size: 16px;
+    }
+/* fim - downloads */

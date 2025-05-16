@@ -427,3 +427,142 @@
         height: 52px;
     }
 /* fim - pricing */
+/* branches */
+    .branches{
+        display: flex;
+        flex-direction: column;
+        margin: 75px, 36px, 135px, 36px;
+        gap: 101px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .branches-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 1048px;
+    }
+
+    .branches-text{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0px;
+        gap: 15px;
+        width: 602px;
+    }
+
+    .branches-text h2{
+        font-size: 40px;
+        color: var(--light-text-color);
+        width: 476px;
+    }
+    
+    .branches-text p{
+        color: var(--light-text-color);
+        width: 455px;
+    }
+
+    .branches-worldmap{
+        padding: 50px 0px;
+        width: 416px;
+    }
+
+    .branches-form{
+        display: flex;
+        padding: 50px 0px;
+        gap: 0px;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 50px;
+        gap: 40px;
+        background-color: var(--light-background-color);
+    }
+
+    .form h3{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .form-input{
+        display: flex;
+        flex-direction: column;
+        width: 510px;
+        gap: 10px;
+    }
+
+    .form-name{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 509px;
+    }
+
+    .form-email{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 509px;
+    }
+
+    .form-departement{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 509px;
+    }
+
+    .form-departement{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 509px;
+    }
+
+    .form-time{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 509px;
+    }
+
+    label{
+        font-size: 14px;
+    }
+
+    input{
+        height: 50px;
+        background-color: var(--input-color);
+        border: solid 1px var(--input-border-color);
+        border-radius: 5px;
+        padding: 0px 0px 0px 21px;
+    }
+
+    select{
+        height: 50px;
+        background-color: var(--input-color);
+        border: solid 1px var(--input-border-color);
+        border-radius: 5px;
+        padding: 0px 0px 0px 21px;
+    }
+
+    .form-button{
+        margin: 40px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .book-appointment{
+        padding: 15px 40px;
+        width: 510px;
+        background-color: var(--primary-color);
+        color: var(--light-text-color);
+        font-size: 14px;
+        border-radius: 5px;
+    }
+/* fim - branches */

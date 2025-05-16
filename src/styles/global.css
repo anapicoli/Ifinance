@@ -35,6 +35,8 @@ p{
     --danger-color: #E74040;
     --light-gray-1: #FAFAFA;
     --light-gray-2: #ECECEC;
+    --input-color: #F9F9F9;
+    --input-border-color: #DDDDDD;
     
     --font:'Montserrat';
 }

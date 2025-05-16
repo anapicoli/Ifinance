@@ -566,3 +566,24 @@
         border-radius: 5px;
     }
 /* fim - branches */
+
+/* footer */
+    footer{
+        margin-top: 135px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--light-background-color);
+    }
+    .footer-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 0px;
+        background-color: var(--dark-background-color);
+        color: var(--light-text-color);
+        height: 336px;
+        margin-top: 3px;
+    }
+/* fim - footer*/

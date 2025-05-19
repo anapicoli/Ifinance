@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/44626b0a-b49f-41af-afdd-6d9f99c7797a)
 <!-- MODELO PROJETO FINALIZADO -->
 
 <h1 align="center"> 
@@ -71,7 +70,7 @@ Ifinance é um projeto desenvolvido com base em um protótipo do Figma, com o ob
 ## 🎨 Layout
 
 <!-- AQUI VOCÊ PASSA O CAMINHO DA IMAGEM -->
-![image](https://github.com/user-attachments/assets/5ee9cc2d-fc1c-4021-84c7-8cec5eb9bf07)<br>
+![image](https://github.com/user-attachments/assets/44626b0a-b49f-41af-afdd-6d9f99c7797a)<br>
 
 <!-- ---------------------------------------------------------------------- -->
 

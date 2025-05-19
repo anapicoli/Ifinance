@@ -578,12 +578,77 @@
     }
     .footer-info{
         display: flex;
+        padding: 80px 0px;
         justify-content: center;
         align-items: center;
-        padding: 80px 0px;
         background-color: var(--dark-background-color);
         color: var(--light-text-color);
-        height: 336px;
+        width: 1265px;
         margin-top: 3px;
+        gap: 30px;
+    }
+
+    .getintouch{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        width: 238px;
+    }
+
+    .getintouch h2{
+        font-size: 24px;
+    }
+
+    .getintouch p{
+        width: 213px;
+    }
+
+    .socialmedia{
+        display: flex;
+        gap: 20px;
+    }
+
+    .companyinfo{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 241px;
+    }
+
+    .companyinfo-text{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .features{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 240px;
+    }
+
+    .features-text{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .resources{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 131px;
+    }
+
+    .resources-text{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer-rights{
+        padding: 25px 0px;
+        color: var(--second-text-color);
     }
 /* fim - footer*/
